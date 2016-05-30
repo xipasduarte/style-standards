@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Style Standards</title>
+    <link rel="stylesheet" type="text/css" href="build/build.css">
+  </head>
+  <body>
+    <article>
+      <section>
+        <h1>Standards</h1>
+        <h3>in Style</h3>
+      </section>
+      <section>
+        <h2>Every Man For Himself!</h2>
+        <h3>How much of a blank slate should a new site/app be?</h3>
+        <ul class="bullet">
+          <li>The leaner you start the more you have to build.</li>
+          <li>Look at open source, we always start from something that exists.</li>
+          <li>Imagine if we always started from zero to something.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Frameworks, scaffolding, CMS, bootstrap, etc...</h2>
+        <h3>These are all starting points that push us into the future and save us time.</h3>
+      </section>
+      <section>
+        <h2>What about Standards?</h2>
+        <h3>Standards are a kind of Framework, they give us the same benefits (time). But...</h3>
+        <ul class="bullet">
+          <li>Unlike Frameworks, they touch every bit of code</li>
+          <li>They make many sound like one</li>
+          <li>They offer an easy door for every newcomer</li>
+        </ul>
+      </section>
+      <section>
+        <h2>So Standards are good...</h2>
+      </section>
+      <section>
+        <h2>In fact great...</h2>
+      </section>
+      <section data-bespoke-backdrop="emphatic" class="emphatic-text">
+        <h2>Hell, Mandatory!</h2>
+      </section>
+      <section>
+        <h2>And now what?</h2>
+        <ul class="bullet">
+          <li>Where do I start?</li>
+          <li>Which is the way to go?</li>
+        </ul>
+      </section>
+      <section>
+        <h2>You make your own way!</h2>
+      </section>
+      <section>
+        <h2>My advice is...</h2>
+        <ul class="bullet">
+          <li>There is no one way of having/making Standards</li>
+          <li>You can start from scratch (cof... cof...)</li>
+          <li>You <strong>should</strong> start from the bountiful resources</li>
+          <li>Make the first step, it's not like it'll be set in stone</li>
+          <li>Involve you team (if you have one)</li>
+          <li>Share your rule set</li>
+          <li>Make mistakes and...</li>
+        </ul>
+      </section>
+      <section data-bespoke-backdrop="emphatic" class="emphatic-text">
+        <h2>Evolve!</h2>
+      </section>
+      <section>
+        <h2>Standards at <em>log</em></h2>
+        <h3><a href="https://github.com/log-oscon/Standards" target="_blank">log-oscon/Standards</a></h3>
+      </section>
+      <section>
+        <h2>CSS rules</h2>
+        <ul class="bullet">
+          <li>Your standards (in style) should reflect best practices</li>
+        </ul>
+      </section>
+      <section>
+        <pre><code class="language-css">/* Bad boy */
+.selector {
+  background: #fff;
+}
+
+/* Good girl */
+.selector {
+  background-color: #fff;
+}
+</code></pre>
+      </section>
+      <section>
+        <h2>CSS rules</h2>
+        <ul>
+          <li class="bullet dimmed">Your standards (in style) should reflect best practices</li>
+          <li>Align your projects and team with the same syntax</li>
+        </ul>
+      </section>
+      <section>
+        <pre><code class="language-css">/* Yuck! */
+.selector {
+  z-index: 20;
+  background-color: #fff;
+  padding-top: 10px;
+  width: 20px;
+  line-height: 1.2;
+  border-radius: 5px;
+}
+</code></pre>
+      </section>
+      <section>
+        <h2>Naming Conventions</h2>
+        <ul class="bullet">
+          <li>Designed to make your code easy to understand</li>
+        </ul>
+      </section>
+      <section>
+        <pre><code class="language-css">/* Bad! */
+.sf {
+  /* Declarations */
+}
+
+/* Good */
+.search-form {
+  /* Declarations */
+}
+</code></pre>
+      </section>
+      <section>
+        <h2>Naming Conventions</h2>
+        <ul>
+          <li class="bullet dimmed">Designed to make your code easy to understand</li>
+          <li>Comunicate meaning</li>
+        </ul>
+      </section>
+      <section>
+        <pre><code class="language-css">/* Bad! */
+.sf {
+  /* Declarations */
+}
+
+/* Good */
+.search-form {
+  /* Declarations */
+}
+</code></pre>
+      </section>
+      <section>
+        <h2>Naming Conventions</h2>
+        <ul>
+          <li class="dimmed">Designed to make your code easy to understand</li>
+          <li class="bullet dimmed">Comunicate meaning</li>
+          <li>Provide separation of purpose</li>
+        </ul>
+      </section>
+      <section>
+        <pre><code class="language-css">/* Great! But not here... */
+.js-search-form__submit {
+  border: 1px solid red;
+}
+</code></pre>
+      </section>
+      <section>
+        <h2>Documentation</h2>
+        <ul class="bullet">
+          <li>Go further when you NEED to</li>
+        </ul>
+      </section>
+      <section>
+        <pre><code class="language-css">/* This is something to look out for. */
+.selector {
+  border: 1px solid red;
+}
+</code></pre>
+      </section>
+      <section>
+        <h2>Documentation</h2>
+        <ul>
+          <li class="bullet dimmed">Go further when you NEED to</li>
+          <li>Go further when you HAVE to</li>
+        </ul>
+      </section>
+      <section>
+        <pre><code class="language-css">.selector {
+  /* Because of some DARN vendor code! */
+  background-color: green !important;
+}
+</code></pre>
+      </section>
+      <section>
+        <h2>Documentation</h2>
+        <ul>
+          <li class="dimmed">Go further when you NEED to</li>
+          <li class="bullet dimmed">Go further when you HAVE to</li>
+          <li>Explain yourselfkdkdkdkdkdkdkdkdkdkdkoº</li>
+        </ul>
+      </section>
+      <section data-bespoke-backdrop="emphatic" class="emphatic-text">
+        <h2>Make shit obvious!</h2>
+      </section>
+      <section>
+        <h2>Challenges</h2>
+        <ul class="bullet">
+          <li>Integrating Standards</li>
+          <li>Keeping up with Standards</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Ari</h1><img src="images/xipasduarte.jpg" alt="" class="my-kitty-face">
+      </section>
+    </article>
+    <script src="build/build.js"></script>
+  </body>
+</html>
