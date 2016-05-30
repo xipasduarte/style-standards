@@ -1,0 +1,212 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Style Standards
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section
+        h1 Standards
+        h3 in Style
+
+      section
+        h2 Every Man For Himself!
+        h3 How much of a blank slate should a new site/app be?
+        ul.bullet
+          li The leaner you start the more you have to build.
+          li Look at open source, we always start from something that exists.
+          li Imagine if we always started from zero to something.
+      
+      section
+        h2 Frameworks, scaffolding, CMS, bootstrap, etc...
+        h3 These are all starting points that push us into the future and save us time.
+      
+      section
+        h2 What about Standards?
+        h3 Standards are a kind of Framework, they give us the same benefits (time). But...
+        ul.bullet
+          li Unlike Frameworks, they touch every bit of code
+          li They make many sound like one
+          li They offer an easy door for every newcomer
+
+      section
+        h2 So Standards are good...
+        
+      section
+        h2 In fact great...
+      
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h2 Hell, Mandatory!
+      
+      section
+        h2 And now what?
+        ul.bullet
+          li Where do I start?
+          li Which is the way to go?
+          
+      section
+        h2 You make your own way!
+        
+      section
+        h2 My advice is...
+        ul.bullet
+          li There is no one way of having/making Standards
+          li You can start from scratch (cof... cof...)
+          li You <strong>should</strong> start from the bountiful resources
+          li Make the first step, it's not like it'll be set in stone
+          li Involve you team (if you have one)
+          li Share your rule set
+          li Make mistakes and...
+      
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h2 Evolve!
+
+      section
+        h2 Standards at <em>log</em>
+        h3
+          a(href="https://github.com/log-oscon/Standards", target="_blank") log-oscon/Standards
+        
+      section
+        h2 CSS rules
+        ul.bullet
+          li Your standards (in style) should reflect best practices
+      
+      section
+        pre
+          code.language-css.
+            /* Bad boy */
+            .selector {
+              background: #fff;
+            }
+            
+            /* Good girl */
+            .selector {
+              background-color: #fff;
+            }
+      
+      section
+        h2 CSS rules
+        ul
+          li.bullet.dimmed Your standards (in style) should reflect best practices
+          li Align your projects and team with the same syntax
+      
+      section
+        pre
+          code.language-css.
+            /* Yuck! */
+            .selector {
+              z-index: 20;
+              background-color: #fff;
+              padding-top: 10px;
+              width: 20px;
+              line-height: 1.2;
+              border-radius: 5px;
+            }
+      
+      section
+        h2 Naming Conventions
+        ul.bullet
+          li Designed to make your code easy to understand
+      
+      section
+        pre
+          code.language-css.
+            /* Bad! */
+            .sf {
+              /* Declarations */
+            }
+            
+            /* Good */
+            .search-form {
+              /* Declarations */
+            }
+            
+      section
+        h2 Naming Conventions
+        ul
+          li.bullet.dimmed Designed to make your code easy to understand
+          li Comunicate meaning
+          
+      section
+        pre
+          code.language-css.
+            /* Bad! */
+            .sf {
+              /* Declarations */
+            }
+            
+            /* Good */
+            .search-form {
+              /* Declarations */
+            }
+            
+      section
+        h2 Naming Conventions
+        ul
+          li.dimmed Designed to make your code easy to understand
+          li.bullet.dimmed Comunicate meaning
+          li Provide separation of purpose
+          
+      section
+        pre
+          code.language-css.
+            /* Great! But not here... */
+            .js-search-form__submit {
+              border: 1px solid red;
+            }
+            
+      section
+        h2 Documentation
+        ul.bullet
+          li Go further when you NEED to
+          
+      section
+        pre
+          code.language-css.
+            /* This is something to look out for. */
+            .selector {
+              border: 1px solid red;
+            }
+      
+      section
+        h2 Documentation
+        ul
+          li.bullet.dimmed Go further when you NEED to
+          li Go further when you HAVE to
+          
+      section
+        pre
+          code.language-css.
+            .selector {
+              /* Because of some DARN vendor code! */
+              background-color: green !important;
+            }
+      
+      section
+        h2 Documentation
+        ul
+          li.dimmed Go further when you NEED to
+          li.bullet.dimmed Go further when you HAVE to
+          li Explain yourselfkdkdkdkdkdkdkdkdkdkdkoº
+          
+          
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h2 Make shit obvious!
+        
+      section
+        h2 Challenges
+        ul.bullet
+          li Integrating Standards
+          li Keeping up with Standards
+          
+      section
+        h1 Ari
+        img(src="images/xipasduarte.jpg", alt="", class="my-kitty-face")
+
+    script(src='build/build.js')
